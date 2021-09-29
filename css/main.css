@@ -1,0 +1,36 @@
+section {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+}
+
+.height{
+    min-height: 100vh;
+}
+
+.text-underline{
+    width: 220px;
+    height: 8px;
+    margin: 0 auto;
+}
+
+.height-80{
+    min-height: 80vh;
+}
+.karuzela{
+    height: 500px;
+    width: 300px;
+}
+
+.about-picture{
+    background: url(../img/tlo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#navbar {
+    font-size: 20px
+}
+#filler, #progress{
+    background: linear-gradient(to right,rgba(0,0,0,.1),rgba(0,0,0,.9)), url(../img/city.jpg)center/cover no-repeat fixed;
+}
